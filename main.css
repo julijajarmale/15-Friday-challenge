@@ -41,9 +41,9 @@ position:relative;
 .circle{
     border: 3px solid #70C0C9;
     color: #70C0C9;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 15px;
-    padding: 7px;
+    padding:5px;
     background-color: #fff;
     border-radius: 50%;
     width: 30px;
