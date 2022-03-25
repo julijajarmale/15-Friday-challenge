@@ -15,29 +15,97 @@ body > main{
     margin-left: calc(50% - 400px);
     display: inline-block;
     margin-top: 100px;
+    position:static;
 
 }
 
 .column{
-    width: 20%;
-    height: 500px;
-    float:left;
-    margin-left: 20px;
-    text-align: center;
-    padding: 5px;
+width: 20%;
+height: 500px;
+float:left;
+margin-left: 20px;
+text-align: center;
+padding: 5px;
+position:relative
 
 }
 
-.column > .image{
+.column > .image-background1{
 height: 150px;
-width: 90%;
+width: 150px;
+border-radius: 3px;
+background-color: #70C0C9;
+position:relative;
+}
+
+.circle{
+    border: 3px solid #70C0C9;
+    color: #70C0C9;
+    font-size: 14px;
+    line-height: 15px;
+    padding: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height:30px;
+    text-align: center;
+    position:absolute;
+    top:-5px;
+    left: -5px;
+    }
+
+
+.column > .image-background2{
+height: 150px;
+width: 150px;
+border-radius: 3px;
+background-color: #4074BD;
+position:relative;
+}
+
+.circle2{
+    border: 2px solid #4074BD;
+    color:#4074BD}
+
+.column > .image-background3{
+height: 150px;
+width: 150px;
+border-radius: 3px;
+background-color: #E05E46;
+position:relative;
+        }
+
+.circle3{
+border: 2px solid #E05E46;
+color: #E05E46;
+            
+}
+
+.column > .image-background4{
+height: 150px;
+width: 150px;
+border-radius: 3px;
+background-color: #919191;
+position:relative;
+            }
+
+.circle4{
+border: 2px solid #919191;
+color:#919191;
+}
+.image{
+height: 70px;
+width: 70px;
+margin-top:40px;
+filter:invert(100%);
 }
 
 .column > .header{
-    font-size: 18px;
-    color:tomato;
-    padding: 5px;
-    margin-bottom: 10px;
+ font-size: 18px;
+ color:tomato;
+ padding: 5px;
+ margin-top:10px;
+ margin-bottom: 10px;
 
 }
 
