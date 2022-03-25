@@ -1,0 +1,50 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body > main{
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    display: inline-block;
+    margin-top: 100px;
+
+}
+
+.column{
+    width: 180px;
+    float:left;
+    margin-left: 20px;
+
+}
+
+.column > .image{
+height: 150px;
+width: 150px;
+}
+
+.column > .header{
+    width:150px;
+    font-size: 18px;
+    color:tomato;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+.column > .prg{
+width: 170px;
+height: 100px;
+font-size: 13px;
+color:#777;
+text-align: center;
+
+}
