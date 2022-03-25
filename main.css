@@ -20,6 +20,7 @@ body > main{
 
 .column{
     width: 180px;
+    height: 500px;
     float:left;
     margin-left: 20px;
 
@@ -27,7 +28,9 @@ body > main{
 
 .column > .image{
 height: 150px;
-width: 150px;
+width: 90%;
+object-fit:contain;
+object-position: center;
 }
 
 .column > .header{
@@ -41,10 +44,10 @@ width: 150px;
 }
 
 .column > .prg{
-width: 170px;
-height: 100px;
 font-size: 13px;
+line-height: 18px ;
 color:#777;
 text-align: center;
+
 
 }
